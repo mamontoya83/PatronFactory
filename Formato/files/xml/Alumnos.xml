@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lists>
+    <alumno>
+        <apellidoMaterno>Del Campo</apellidoMaterno>
+        <apellidoPaterno>Montoya</apellidoPaterno>
+        <carrera>Sistemas Computacionales</carrera>
+        <edad>34</edad>
+        <noDeControl>1</noDeControl>
+        <nombre>Miguel Angel</nombre>
+        <semestre>2</semestre>
+        <sexo>M</sexo>
+    </alumno>
+    <alumno>
+        <apellidoMaterno>Uriarte</apellidoMaterno>
+        <apellidoPaterno>Zazueta</apellidoPaterno>
+        <carrera>Gestion Empresarial</carrera>
+        <edad>29</edad>
+        <noDeControl>2</noDeControl>
+        <nombre>Damaris</nombre>
+        <semestre>2</semestre>
+        <sexo>F</sexo>
+    </alumno>
+    <alumno>
+        <apellidoMaterno>Zazueta</apellidoMaterno>
+        <apellidoPaterno>Montoya</apellidoPaterno>
+        <carrera>Kinder</carrera>
+        <edad>5</edad>
+        <noDeControl>3</noDeControl>
+        <nombre>Maria Fernanda</nombre>
+        <semestre>4</semestre>
+        <sexo>F</sexo>
+    </alumno>
+</lists>

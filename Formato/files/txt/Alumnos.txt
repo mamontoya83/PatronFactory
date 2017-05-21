@@ -1,0 +1,3 @@
+1	Miguel Angel	Montoya	Del Campo	34	M	Sistemas Computacionales	2
+2	Damaris	Zazueta	Uriarte	29	F	Gestion Empresarial	2
+3	Maria Fernanda	Montoya	Zazueta	5	F	Kinder	4
