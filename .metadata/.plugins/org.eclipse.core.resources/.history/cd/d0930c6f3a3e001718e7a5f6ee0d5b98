@@ -27,19 +27,19 @@ public class Principal {
 		do {
 			int o = preguntarFormato();
 			switch (o) {
-			case 1:
+			case 0:
 				usarFormato("CSV", principal.getBaseDeDatos());
 				break;
-			case 2:
+			case 1:
 				usarFormato("JSON", principal.baseDeDatos);
 				break;
-			case 3:
+			case 2:
 				usarFormato("TXT", principal.baseDeDatos);
 				break;
-			case 4:
+			case 3:
 				usarFormato("XML", principal.baseDeDatos);
 				break;
-			case 5:
+			case 4:
 				System.out.println("Sistema Terminado");
 				System.exit(0);
 				break;
@@ -64,15 +64,14 @@ public class Principal {
 	}
 	
 	public static int preguntarFormato(){
-		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.println(
 				"MENU DE OPCIONES\n"
-				+ "1. Importar la informacion en formato CSV\n"
-				+ "2. Importar la informacion en formato JSON\n"
-				+ "3. Importar la informacion en formato TXT\n"
-				+ "4. Importar la informacion en formato XML\n"
-				+ "5. Salir"
+				+ "0. Importar la informacion en formato CSV\n"
+				+ "1. Importar la informacion en formato JSON\n"
+				+ "2. Importar la informacion en formato TXT\n"
+				+ "3. Importar la informacion en formato XML\n"
+				+ "4. Salir"
 				);
 		return Integer.parseInt(s.nextLine());
 	}

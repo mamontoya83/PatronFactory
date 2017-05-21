@@ -64,15 +64,14 @@ public class Principal {
 	}
 	
 	public static int preguntarFormato(){
-		@SuppressWarnings("resource")
 		Scanner s = new Scanner(System.in);
 		System.out.println(
 				"MENU DE OPCIONES\n"
-				+ "1. Importar la informacion en formato CSV\n"
-				+ "2. Importar la informacion en formato JSON\n"
-				+ "3. Importar la informacion en formato TXT\n"
-				+ "4. Importar la informacion en formato XML\n"
-				+ "5. Salir"
+				+ "0. Importar la informacion en formato CSV\n"
+				+ "1. Importar la informacion en formato JSON\n"
+				+ "2. Importar la informacion en formato TXT\n"
+				+ "3. Importar la informacion en formato XML\n"
+				+ "4. Salir"
 				);
 		return Integer.parseInt(s.nextLine());
 	}
